@@ -1,10 +1,10 @@
 
 
 alert("مرحباً بك في موقعي! أنا محمد ، وسوف أحسب درجتك");
+let outputColor = "color:green;"
 
 let grade = prompt("أدخل درجتك");
-let outputColor = "color:green;"
-console.log(grade);
+console.log('%cالدرجة: ' + grade, 'color: blue; font-weight: bold;');
 
 
 if (grade <=100 && grade >= 90){
